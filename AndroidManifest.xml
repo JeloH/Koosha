@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hmdnanjing.game"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+ 
+
+    <application
+        android:name="com.hmdnanjing.game.MemoryApp"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+    android:name="ir.adad.client.AdadActivity"
+    android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+    android:theme="@android:style/Theme.Translucent"/> 
+        <activity
+            android:name="com.hmdnanjing.game.SplachActivity"
+            android:label="@string/label_default" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hmdnanjing.game.BoardActivity"
+            android:label="@string/label_default" />
+        <activity
+            android:name="com.hmdnanjing.game.BestResults"
+            android:label="@string/label_best_results" />
+        <activity
+            android:name="com.hmdnanjing.game.AboutActivity"
+            android:label="@string/label_about" />
+        <activity
+            android:name="com.hmdnanjing.game.GameSelection"
+            android:label="@string/label_game_selection" />
+        <activity
+            android:name="com.hmdnanjing.game.MainmenuActivity"
+            android:label="@string/title_activity_splash" >
+        </activity>
+    </application>
+
+</manifest>

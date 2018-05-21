@@ -1,0 +1,253 @@
+package com.hmdnanjing.game;
+
+
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import com.hmd.data.DataManager;
+import com.hmd.data.UpdateListener;
+
+
+public class MainmenuActivity extends Activity {
+
+	  /** Duration of wait **/
+    private final int SPLASH_DISPLAY_LENGTH = 1000;
+
+    /** Called when the activity is first created. */
+    
+    private static final String SHARED_PREF_NAME = "MemoryApp"; 
+	private static final String SHARED_PREF_USER = "username";
+	private EditText username_et;
+	
+	 
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+		
+	    
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.menu_layout);
+		username_et = (EditText) findViewById(R.id.user_name_et);
+		Button b = (Button)findViewById(R.id.game_list_button);
+		b.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				String username = username_et.getText().toString();
+				Intent intent = new Intent(MainmenuActivity.this, GameSelection.class);
+				intent.putExtra(BoardActivity.USER_NAME_ID, username_et.getText().toString());
+				startActivity(intent);
+				storeUserName(username);
+			}
+		});
+		
+		
+		Button b3 = (Button)findViewById(R.id.button3);
+		b3.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg1) {
+ 				Intent intent = new Intent(MainmenuActivity.this, BestResults.class);
+				//intent.putExtra(BoardActivity.USER_NAME_ID, username_et.getText().toString());
+				startActivity(intent);
+				//storeUserName(username);
+			}
+		});
+		
+		
+		Button b1 = (Button)findViewById(R.id.button1);
+		b1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg3) {
+ 				Intent intent = new Intent(MainmenuActivity.this, AboutActivity.class);
+				//intent.putExtra(BoardActivity.USER_NAME_ID, username_et.getText().toString());
+				startActivity(intent);
+				//storeUserName(username);
+			}
+		});
+		
+		
+		
+		
+		
+		Button b22 = (Button)findViewById(R.id.button2);
+		b22.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg3) {
+ 				
+				MainmenuActivity.this.finish();
+				 
+				 
+				//intent.putExtra(BoardActivity.USER_NAME_ID, username_et.getText().toString());
+				//startActivity(intent);
+				//storeUserName(username);
+			}
+		});
+		
+		
+		
+		
+		 
+		  
+		 
+		
+		
+		
+		initDefaults.execute();
+		loadUserName();
+		
+		
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    AsyncTask<String, String, Void> initDefaults = new AsyncTask<String, String, Void>() {
+
+		ProgressDialog pd;
+		
+		@Override
+		protected void onPreExecute() {
+			pd = new ProgressDialog(MainmenuActivity.this);
+			pd.setTitle("انجام خودکار تنظیمات...");
+			pd.show();
+			super.onPreExecute();
+		}
+		
+		@Override
+		protected Void doInBackground(String... arg0) {
+			DataManager.getDataManager().setDefaultGames(new UpdateListener(){
+				@Override
+				public void onUpdate(String message) {
+					publishProgress(message);
+				}
+			});
+			return null;
+		}
+
+		@Override
+		protected void onProgressUpdate(String... values) {
+			pd.setMessage(values[0]);
+			super.onProgressUpdate(values);
+		}
+
+		@Override
+		protected void onPostExecute(Void result) {
+			pd.dismiss();
+			super.onPostExecute(result);
+		}
+		
+	};
+	
+	
+
+	private void storeUserName(String username) {
+		SharedPreferences pref = this.getSharedPreferences(SHARED_PREF_NAME, MODE_PRIVATE);
+		SharedPreferences.Editor editor = pref.edit();
+		editor.putString(SHARED_PREF_USER, username);
+		editor.commit();
+	}
+	
+	private void loadUserName() {
+		SharedPreferences pref = this.getSharedPreferences(SHARED_PREF_NAME, MODE_PRIVATE);
+		String username = pref.getString(SHARED_PREF_USER, null);
+		if (username != null) {
+			username_et.setText(username);
+		}
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+	    MenuInflater inflater = getMenuInflater();
+	    inflater.inflate(R.menu.main_menu, menu);
+	    return true;
+	}
+	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		Intent intent;
+	    // Handle item selection
+	    switch (item.getItemId()) {
+	    case R.id.menu_item_high_scores:
+	    	intent = new Intent(this, BestResults.class);
+	    	startActivity(intent);
+	        return true;
+	    case R.id.menu_item_about:
+	    	intent = new Intent(this, AboutActivity.class);
+	    	startActivity(intent);
+	    	return true;
+	    
+	    default:
+	        return super.onOptionsItemSelected(item);
+	    }
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	private void updateFromServer() {
+		AsyncTask<Void, String, Void> updateTask = new AsyncTask<Void, String, Void>(){
+			ProgressDialog dialog;
+			
+			@Override
+			protected void onPreExecute() {
+				dialog = new ProgressDialog(MainmenuActivity.this);
+				dialog.setTitle("Updating from Server");
+				dialog.show();
+				super.onPreExecute();
+			}
+			
+			@Override
+			protected Void doInBackground(Void... arg0) {
+				Log.d(MemoryApp.DBG_STR, "Starting update");
+				DataManager.getDataManager().updateGames(new UpdateListener(){
+					@Override
+					public void onUpdate(String message) {
+						publishProgress(message);
+					}
+				});
+				return null;
+			}
+			
+			@Override
+			protected void onProgressUpdate(String... values) {
+				dialog.setMessage(values[0]);
+				super.onProgressUpdate(values);
+			}
+
+			@Override
+			protected void onPostExecute(Void result) {
+				dialog.dismiss();
+				super.onPostExecute(result);
+			}
+			
+		};
+		updateTask.execute();
+	}
+
+
+	
+	
+}
