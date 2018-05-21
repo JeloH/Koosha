@@ -5,6 +5,8 @@ Persian app store as a free version:
 https://cafebazaar.ir/app/com.hmdnanjing.game/?l=en
 
 
+<img src="https://s.cafebazaar.ir/1/upload/screenshot/com.hmdnanjing.game0.jpg" width="48">
+
 ![alt text](https://s.cafebazaar.ir/1/upload/screenshot/com.hmdnanjing.game0.jpg)
 ![alt text](https://s.cafebazaar.ir/1/upload/screenshot/com.hmdnanjing.game1.jpg)
 
