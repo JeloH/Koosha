@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:weightSum="6"
+	android:background="@drawable/w_bg">
+ 	
+	
+	
+	
+  <LinearLayout
+          android:id="@+id/linchild1"
+         
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="2.6"
+      >
+      
+    
+      
+      
+      
+	      
+	        	<TextView android:id="@+id/menu_title_tv"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/menu_title" 
+		 
+		 />
+      	
+	<EditText
+	    android:id="@+id/user_name_et"
+	    android:layout_width="172dip"
+	    android:layout_height="match_parent"
+	 		 
+	     android:gravity="center"
+	 
+	    android:layout_below="@id/menu_title_tv"
+	    android:background="@drawable/pn4"
+	    android:hint="@string/user_name_hint"
+	    android:cursorVisible="true"
+	    android:textStyle="bold"
+	    android:maxLines="1" />
+
+	<TextView android:id="@+id/results_tv"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+	 
+		android:layout_alignParentLeft="true"
+		android:layout_below="@id/user_name_et"
+		/>
+	
+	       
+	  
+	
+	  
+
+	  
+      
+      
+  </LinearLayout>
+  
+  <LinearLayout
+      android:id="@+id/linchild2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1.7"
+      android:gravity="center"
+      android:orientation="vertical" >
+      
+ 
+ 		
+
+      
+           <Button android:id="@+id/game_list_button" 
+	    android:background="@drawable/btn_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:text="اجرای برنامه"/>
+           
+      <Button
+          android:id="@+id/button3"
+          android:background="@drawable/btn_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="بالاترین امتیاز" />
+
+      
+       
+      
+  </LinearLayout>
+  
+  <LinearLayout
+      android:id="@+id/linchild3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1.7"
+      android:gravity="top|center"
+      android:orientation="vertical" >
+           
+	    	<Button
+	    android:id="@+id/button1"
+	    android:background="@drawable/btn_1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="عملکرد این برنامه" />
+         
+	
+ 
+		    
+	    
+	    <Button
+	    android:id="@+id/button2"
+	      android:background="@drawable/btn_1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="خارج شدن" />
+	  
+	 
+	
+        
+        
+  </LinearLayout>
+	
+	
+	
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">بازی و یادگیری زبان انگلیسی کوشا</string>
+    <string name="label_default">بازی و یادگیری کوشا</string>
+    <string name="label_best_results">بهترین زمان کسب شده</string>
+    <string name="label_about">راهنمای بازی</string>
+    <string name="label_game_selection">انتخاب دسته ی موضوعی</string>
+    <string name="menu_title">یک نام دلخواه وارد کنید</string>
+    <string name="user_name">USER_NAME</string>
+    <string name="user_name_hint">نام شما</string>
+    <string name="board_size">BOARD_SIZE</string>
+    <string name="time_taken">&quot;TIME_IN_MILLIES&quot;</string>
+    <string name="game_type">نوع انتخاب</string>
+    <string name="game_selection_button_text">وارد شوید</string>
+    <string name="server_base_url">http://tiroshbiiiiiiiiiiiiiioaz.com</string>
+    <string name="server_update_api_page">/sharet/UpdateApi.php</string>
+    <string name="title_activity_splash">بازی و یادگیری زبان  کوشا</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world"></string>
+
+</resources>

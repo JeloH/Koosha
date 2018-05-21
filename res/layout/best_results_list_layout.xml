@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/demo"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:weightSum="3"
+  android:layout_height="wrap_content"
+  android:background="@drawable/kjf89"
+  
+  
+   
+     >
+      
+    
+   
+
+	 <LinearLayout
+      android:id="@+id/linchild1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:gravity="center"
+    
+       
+      >
+ 	
+ 
+ 		    <TextView android:text="Game Name" 
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:id="@+id/best_results_game_name">
+        
+    </TextView>
+ 
+       
+      
+  </LinearLayout>
+  
+	 
+	 
+  <LinearLayout
+      android:id="@+id/linchild2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:gravity="center"
+        >
+           
+	
+	 	
+	<TextView android:text="User Name" 
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#000000" 
+				android:textStyle="bold"
+		
+		android:id="@+id/best_results_user_name"></TextView>
+	
+      
+	
+        
+        
+  </LinearLayout>
+	
+	
+	
+	
+	
+		 
+  <LinearLayout
+      android:id="@+id/linchild3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:gravity="center"
+        >
+           
+	
+	 	<TextView android:text="Time" 
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textColor="#000000"
+		
+				android:textStyle="bold"
+		
+	 
+		android:layout_below="@id/best_results_game_name"
+		android:id="@+id/best_results_time"></TextView>
+	
+	
+        
+        
+  </LinearLayout>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</LinearLayout>
