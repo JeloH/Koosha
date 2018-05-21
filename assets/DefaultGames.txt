@@ -1,0 +1,1259 @@
+{
+	"games" : 
+	[
+		{
+			"id" : 1,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0627\u0639\u062f\u0627\u062f \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc",
+			"description" : "Match between English and Icelandic numbers",
+			"pairs" : {
+				"\u0635\u0641\u0631":"Zero","\u06cc\u06a9":"One","\u062f\u0648":"Two","\u0633\u0647":"Three","\u0686\u0647\u0627\u0631":"Four","\u067e\u0646\u062c":"Five",
+				"\u0634\u0634":"Six","\u0647\u0641\u062a":"Seven","\u0647\u0634\u062a":"Eight","\u0646\u0647":"Nine","\u062f\u0647":"Ten",
+				"\u06cc\u0627\u0632\u062f\u0647":"Eleven","\u062f\u0648\u0627\u0632\u062f\u0647":"Twelve","\u0633\u06cc\u0632\u062f\u0647":"Thirteen","\u0686\u0647\u0627\u0631\u062f\u0647":"Fourteen","\u067e\u0627\u0646\u0632\u062f\u0647":"Fifteen",
+				"\u0634\u0627\u0646\u0632\u062f\u0647":"Sixteen","\u0647\u0641\u062f\u0647":"Seventeen","\u0647\u062c\u062f\u0647":"Eighteen","\u0646\u0648\u0632\u062f\u0647":"Nineteen","\u0628\u06cc\u0633\u062a":"Twenty"	
+			}
+		},
+		{
+			"id" : 2,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0645\u06cc\u0648\u0647 \u0647\u0627",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+				
+				         "apple":"\u0633\u06cc\u0628",
+         "apricot":"\u0632\u0631\u062f\u0622\u0644\u0648",
+         "banana":"\u0645\u0648\u0632",
+         "blackberry":"\u062a\u0648\u062a \u0633\u06cc\u0627\u0647",
+         "blueberry":"\u0632\u063a\u0627\u0644 \u0627\u062e\u062a\u0647",
+         "cherry":"\u06af\u06cc\u0644\u0627\u0633",          
+         "currant":"\u0645\u0648\u06cc\u0632",
+         "fig":"\u0627\u0646\u062c\u06cc\u0631",
+         "grape":"\u0627\u0646\u06af\u0648\u0631",
+         "kiwi":"\u06a9\u06cc\u0648\u06cc",
+         "lemon":"\u0644\u06cc\u0645\u0648",         
+         "melon":"\u062e\u0631\u0628\u0632\u0647",
+         "nectarine":"\u0634\u0644\u06cc\u0644",
+         "orange":"\u067e\u0631\u062a\u0642\u0627\u0644",
+         "peach":"\u0647\u0644\u0648",
+         "pear":"\u06af\u0644\u0627\u0628\u06cc",
+         "persimmon":"\u062e\u0631\u0645\u0627\u0644\u0648",
+         "pineapple":"\u0622\u0646\u0627\u0646\u0627\u0633",
+         "tangerine":"\u0646\u0627\u0631\u0646\u06af\u06cc",
+         "watermelon":"\u0647\u0646\u062f\u0648\u0627\u0646\u0647"
+         
+			}
+		},
+		{
+			"id" : 3,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u063a\u0630\u0627\u0647\u0627",
+			"description" : "Match between English and Icelandic food names",
+			"pairs" : {
+				"\u0646\u0627\u0646":"bread","\u0622\u0628":"water","\u067e\u0646\u06cc\u0631":"cheese","\u06a9\u0644\u0648\u0686\u0647":"cookie","\u0634\u06cc\u0631":"milk",
+				"\u06a9\u0631\u0647":"butter","\u0634\u06a9\u0644\u0627\u062a":"chocolate","\u0642\u0647\u0648\u0647":"coffee"
+			}
+		},
+		{
+			"id" : 4,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0645\u06a9\u0627\u0646 \u0647\u0627",
+			"description" : "Match between English and Icelandic place names",
+			"pairs" : {
+				"\u0627\u0633\u062a\u062e\u0631\u0634\u0646\u0627":"swimming pool","\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647":"library","\u062f\u0627\u0631\u0648\u062e\u0627\u0646\u0647":"pharmacy","\u062f\u0631\u0645\u0627\u0646\u06af\u0627\u0647":"clinic",
+				"\u0631\u0633\u062a\u0648\u0631\u0627\u0646":"restaurant","\u0622\u0631\u0627\u06cc\u0634\u06af\u0627\u0647":"hairdresser","\u06a9\u0641\u0634 \u0641\u0631\u0648\u0634\u06cc":"shoe shop","\u0628\u0627\u0646\u06a9":"bank","\u067e\u0644\u06cc\u0633":"police",
+				"\u0628\u06cc\u0645\u0627\u0631\u0633\u062a\u0627\u0646":"hospital"
+			}
+		},
+		{
+			"id" : 23,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062c\u0647\u062a \u0647\u0627",
+			"description" : "Match between English and Icelandic directions",
+			"pairs" : {
+				"\u0634\u0645\u0627\u0644":"north", "\u0634\u0631\u0642":"east", "\u063a\u0631\u0628":"west", "\u062c\u0646\u0648\u0628":"south", "\u0631\u0627\u0633\u062a":"right", 
+				"\u0686\u067e":"left", "\u0628\u0627\u0644\u0627":"up", "\u067e\u0627\u06cc\u06cc\u0646":"down", "\u062f\u0631 \u0632\u06cc\u0631\u0028\u067e\u0627\u06cc\u06cc\u0646\u0029":"below", "\u062f\u0631\u0628\u0627\u0644\u0627":"above"
+				
+			}
+		},
+		{
+			"id" : 6,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0637\u0628\u06cc\u0639\u062a",
+			"description" : "",
+			"pairs" : {
+				"\u0622\u0628\u0634\u0627\u0631":"waterfall","\u062f\u0631\u062e\u062a":"tree","\u06a9\u0648\u0647":"mount","\u062a\u067e\u0647":"hill","\u06af\u0644":"flower",
+				"\u062f\u0631\u06cc\u0627":"sea","beach":"\u0633\u0627\u062d\u0644","Volcano":"\u0622\u062a\u0634\u0641\u0634\u0627\u0646","\u0622\u0628":"water","\u062f\u0631\u0647":"valley",
+				"\u0633\u0646\u06af":"stone","\u0632\u0645\u06cc\u0646":"earth","\u062c\u0646\u06af\u0644":"forest","\u062c\u0632\u06cc\u0631\u0647":"island"
+			}
+		},
+		{
+			"id" : 7,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0631\u0646\u06af \u0647\u0627",
+			"description" : "",
+			"pairs" : {
+			
+			           "beige":"\u0628\u0698",
+           "black":"\u0633\u06cc\u0627\u0647",
+           "blue":"\u0622\u0628\u06cc",
+           "brown":"\u0642\u0647\u0648\u0647 \u0627\u06cc",
+           "cyan":"\u0641\u06cc\u0631\u0648\u0632\u0647 \u0627\u06cc",
+           "grey":"\u062e\u0627\u06a9\u0633\u062a\u0631\u06cc",
+           "green":"\u0633\u0628\u0632",
+           "indigo":"\u0646\u06cc\u0644\u06cc",
+           "khaki":"\u062e\u0627\u06a9\u06cc \u0631\u0646\u06af",
+ 
+           "magenta":"\u0627\u0631\u063a\u0648\u0627\u0646\u06cc",
+           "orange":"\u0646\u0627\u0631\u0646\u062c\u06cc",
+           "pink":"\u0635\u0648\u0631\u062a\u06cc",
+           "purple":"\u0628\u0646\u0642\u0634",
+           "red":"\u0642\u0631\u0645\u0632",
+           "violet":"\u0628\u0646\u0641\u0634",
+           "white":"\u0633\u0641\u06cc\u062f",
+           "yellow":"\u0632\u0631\u062f"
+           
+			}
+		},
+		{
+			"id" : 8,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062d\u06cc\u0648\u0627\u0646\u0627\u062a\u002d\u0627\u0644\u0641",
+			"description" : "",
+			"pairs" : {
+			
+			
+          
+            "ant":"\u0645\u0648\u0631\u0686\u0647",
+            "bear":"\u062e\u0631\u0633",
+            "bee":"\u0632\u0646\u0628\u0648\u0631\u0639\u0633\u0644",
+            "bird":"\u067e\u0631\u0646\u062f\u0647",
+            "camel":"\u0634\u062a\u0631",
+            "cat":"\u06af\u0631\u0628\u0647",
+            "cheetah":"\u06cc\u0648\u0632\u067e\u0644\u0646\u06af \u0648\u062d\u0634\u06cc",
+            "chicken":"\u0645\u0631\u063a",
+            "chimpanzee":"\u0634\u0627\u0645\u067e\u0627\u0646\u0632\u0647",
+            "cow":"\u06af\u0627\u0648",
+            "crocodile":"\u062a\u0645\u0633\u0627\u062d",
+            "deer":"\u06af\u0648\u0632\u0646",
+            "dog":"\u0633\u06af",
+            "dolphin":"\u062f\u0644\u0641\u06cc\u0646",
+            "duck":"\u0627\u0631\u062f\u06a9",
+            "eagle":"\u0639\u0642\u0627\u0628",
+            "elephant":"\u0641\u06cc\u0644",
+            "fish":"\u0645\u0627\u0647\u06cc",
+             
+            "fox":"\u0631\u0648\u0628\u0627\u0647",
+            "frog":"\u0642\u0648\u0631\u0628\u0627\u063a\u0647",
+
+            "giraffe":"\u0632\u0631\u0627\u0641\u0647",
+            "goat":"\u0628\u0632",
+             
+             
+            "hippopotamus":"\u0627\u0633\u0628 \u0622\u0628\u06cc",
+            "horse":"\u0627\u0633\u0628",
+            "kangaroo":"\u06a9\u0627\u0646\u06af\u0648\u0631\u0648",
+             
+            "leopard":"\u067e\u0644\u0646\u06af",
+            "lion":"\u0634\u06cc\u0631 \u0646\u0631",
+            "lizard":"\u0645\u0627\u0631\u0645\u0648\u0644\u06a9",
+            "lobster":"\u062e\u0631\u0686\u0646\u06af",
+            "monkey":"\u0645\u06cc\u0645\u0648\u0646"
+
+
+			}
+		},	
+			{
+			"id" : 9,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062d\u06cc\u0648\u0627\u0646\u0627\u062a\u002d\u0628",
+			"description" : "",
+			"pairs" : {
+			
+			"octopus":"\u0627\u062e\u062a\u0627\u067e\u0648\u0633",
+            "ostrich":"\u0634\u062a\u0631\u0645\u0631\u063a",
+            "otter":"\u0633\u0645\u0648\u0631",
+            "owl":"\u062c\u063a\u062f",
+            "oyster":"\u0635\u062f\u0641",
+             
+            "parrot":"\u0637\u0648\u0637\u06cc",
+             
+            "pig":"\u062e\u0648\u06a9",
+            "pigeon":"\u06a9\u0628\u0648\u062a\u0631",
+            "porcupine":"\u062c\u0648\u062c\u0647 \u062a\u06cc\u063a\u06cc",
+             
+            "rabbit":"\u062e\u0631\u06af\u0648\u0634",             
+             
+            "rhinoceros":"\u06a9\u0631\u06af\u062f\u0646",
+            "rooster":"\u062e\u0631\u0648\u0633",
+            "scorpion":"\u0639\u0642\u0631\u0628",
+             
+            "shark":"\u06a9\u0648\u0633\u0647",
+            "sheep":"\u06af\u0648\u0633\u0641\u0646\u062f",
+            "shrimp":"\u0645\u06cc\u06af\u0648",
+            "snail":"\u062d\u0644\u0632\u0648\u0646",
+            "snake":"\u0645\u0627\u0631",
+            "sparrow":"\u06af\u0646\u062c\u0634\u06a9",
+            "spider":"\u0639\u0646\u06a9\u0628\u0648\u062a",
+            "squirrel":"\u0633\u0646\u062c\u0627\u0628",
+             
+            "swan":"\u0642\u0648",
+            "tiger":"\u0628\u0628\u0631",
+             
+            "tortoise":"\u0644\u0627\u06a9 \u067e\u0634\u062a",
+             
+            "vulture":"\u06a9\u0631\u06a9\u0633",
+                          
+            "whale":"\u0646\u0647\u0646\u06af",
+            "wolf":"\u06af\u0631\u06af",
+            "zebra":"\u06af\u0648\u0631\u062e\u0631"
+
+                     	}
+		},
+		{
+			"id" : 10,
+			"version" : 3,
+			"action" : "new",
+			"title" : "\u0628\u062f\u0646 \u0627\u0646\u0633\u0627\u0646 \u002d \u0627\u0644\u0641",
+			"description" : "",
+			"pairs" : {
+				
+"ankle" : "\u0645\u0686 \u067e\u0627",
+"arm" : "\u0628\u0627\u0632\u0648",
+"back" : "\u067e\u0634\u062a",
+"beard" : "\u0631\u06cc\u0634",
+"blood" : "\u062e\u0648\u0646",
+"body" : "\u0628\u062f\u0646",
+"bone" : "\u0627\u0633\u062a\u062e\u0648\u0627\u0646",
+"brain" : "\u0645\u063a\u0632",
+"cheek" : "\u06af\u0648\u0646\u0647",
+"chest" : "\u0642\u0641\u0633\u0647 \u0633\u06cc\u0646\u0647",
+"chin" : "\u0686\u0627\u0646\u0647",
+"elbow" : "\u0622\u0631\u0646\u062c"
+				
+		
+		}
+		}
+		
+		
+		,
+		{
+			"id" : 5,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0628\u062f\u0646 \u0627\u0646\u0633\u0627\u0646 \u002d \u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+				
+				"eye" : "\u0686\u0634\u0645",
+"face" : "\u0635\u0648\u0631\u062a" ,
+"foot": "\u067e\u0627",
+"finger" : "\u0627\u0646\u06af\u0634\u062a",
+"fingers" : "\u0627\u0646\u06af\u0634\u062a \u0647\u0627",
+
+"hair": "\u0645\u0648",
+"hand" : "\u062f\u0633\u062a",
+"hands" : "\u062f\u0633\u062a \u0647\u0627",
+"head" : "\u0633\u0631",
+
+"heart" : "\u0642\u0644\u0628",
+"hip": "\u0645\u0641\u0635\u0644 \u0631\u0627\u0646",
+"knee": "\u0632\u0627\u0646\u0648"
+
+ 
+
+ 
+
+ 
+
+			}
+		}
+		
+		,
+		{
+			"id" : 12,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0628\u062f\u0646 \u0627\u0646\u0633\u0627\u0646 \u002d \u062c",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+				
+"lip": "\u0644\u0628",
+"moustache" : "\u0633\u0628\u06cc\u0644",
+"mouth" : "\u062f\u0647\u0627\u0646",
+"muscle" : "\u0639\u0636\u0644\u0647",
+
+"nail": "\u0646\u0627\u062e\u0646",
+"neck": "\u06af\u0631\u062f\u0646",
+"nose" : "\u0628\u06cc\u0646\u06cc",
+"shoulder" : "\u0634\u0627\u0646\u0647",
+
+"skin" : "\u067e\u0648\u0633\u062a",
+"stomach" : "\u0645\u0639\u062f\u0647",
+"teeth" : "\u062f\u0646\u062f\u0627\u0646 \u0647\u0627",
+"throat" : "\u06af\u0644\u0648",
+
+"toe": "\u067e\u0646\u062c\u0647",
+"tongue": "\u0632\u0628\u0627\u0646",
+"wrist" : "\u0645\u0686 \u062f\u0633\u062a"
+				
+
+				
+	}
+		}
+		
+		
+		,
+		{
+			"id" : 13,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062e\u0627\u0646\u0648\u0627\u062f\u0647 \u0648 \u0628\u0633\u062a\u06af\u0627\u0646",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+		"aunt":"\u0639\u0645\u0647",
+"brother":"\u0628\u0631\u0627\u062f\u0631",
+"cousin":"\u0639\u0645\u0647\u002f\u062e\u0627\u0644\u0647\u002f\u0639\u0645\u0648 \u0632\u0627\u062f\u0647",
+"daughter":"\u0641\u0631\u0632\u0646\u062f \u062f\u062e\u062a\u0631",
+"father":"\u067e\u062f\u0631",
+"granddaughter":"\u0646\u0648\u0647 \u062f\u062e\u062a\u0631",
+"grandmother":"\u0645\u0627\u062f\u0631\u0628\u0632\u0631\u06af",
+"grandson":"\u0646\u0648\u0647 \u067e\u0633\u0631",
+"mother":"\u0645\u0627\u062f\u0631",
+"nephew":"\u067e\u0633\u0631 \u062e\u0648\u0627\u0647\u0631 \u06cc\u0627 \u0628\u0631\u0627\u062f\u0631",
+"niece":"\u062f\u062e\u062a\u0631 \u0628\u0631\u0627\u062f\u0631 \u06cc\u0627 \u062e\u0648\u0627\u0647\u0631 ",
+"sister":"\u062e\u0648\u0627\u0647\u0631",
+"son":"\u0641\u0631\u0632\u0646\u062f \u067e\u0633\u0631",
+"stepdaughter":"\u062f\u062e\u062a\u0631 \u062e\u0648\u0627\u0646\u062f\u0647",
+"stepmother":"\u0645\u0627\u062f\u0631 \u062e\u0648\u0627\u0646\u062f\u0647",
+"stepson":"\u067e\u0633\u0631 \u062e\u0648\u0627\u0646\u062f\u0647",
+"uncle":"\u062f\u0627\u06cc\u06cc"
+
+
+			}
+		}
+		
+		
+		
+		,
+		{
+			"id" : 14,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0633\u0627\u062e\u0646\u0645\u0627\u0646 \u0647\u0627\u06cc \u0634\u0647\u0631\u06cc",
+			"description" : "\u0633\u0627\u062e\u0646\u0645\u0627\u0646 \u0647\u0627\u06cc \u0634\u0647\u0631",
+			"pairs" : {
+			
+		"airport" : "\u0641\u0631\u0648\u062f\u06af\u0627\u0647",
+"apartment building" : "\u0622\u067e\u0627\u0631\u062a\u0645\u0627\u0646",
+"bakery" : "\u0646\u0627\u0646\u0648\u0627\u06cc\u06cc",
+"bank" : "\u0628\u0627\u0646\u06a9",
+"barber shop" : "\u0622\u0631\u0627\u06cc\u0634\u06af\u0627\u0647",
+"book store" : "\u06a9\u062a\u0627\u0628\u0641\u0631\u0648\u0634\u06cc",
+"bowling alley" : "\u0633\u0627\u0644\u0646 \u0628\u0648\u0644\u06cc\u0646\u06af",
+"bus terminal" : "\u062a\u0631\u0645\u06cc\u0646\u0627\u0644 \u0627\u062a\u0648\u0628\u0648\u0633",
+"cafe" : "\u06a9\u0627\u0641\u0647",
+"cathedral" : "\u06a9\u0644\u06cc\u0633\u0627\u06cc \u062c\u0627\u0645\u0639",
+"church" : "\u06a9\u0644\u06cc\u0633\u0627",
+"cinema" : "\u0633\u06cc\u0646\u0645\u0627",
+"convenience store" : "\u0641\u0631\u0648\u0634\u06af\u0627\u0647 \u0631\u0627\u062d\u062a\u06cc",
+"department store" : "\u0641\u0631\u0648\u0634\u06af\u0627\u0647",
+"fire stations" : "\u0622\u062a\u0634 \u0646\u0634\u0627\u0646\u06cc",
+"gas station" : "\u067e\u0645\u067e \u0628\u0646\u0632\u06cc\u0646",
+"hospital" : "\u0628\u06cc\u0645\u0627\u0631\u0633\u062a\u0627\u0646",
+"house" : "\u062e\u0627\u0646\u0647",
+"library" : "\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647",
+"mosque" : "\u0645\u0633\u062c\u062f",
+ 
+"museum" : "\u0645\u0648\u0632\u0647",
+"office building" : "\u0633\u0627\u062e\u062a\u0645\u0627\u0646 \u0627\u062f\u0627\u0631\u06cc",
+"post office" : "\u0627\u062f\u0627\u0631\u0647 \u067e\u0633\u062a",
+"restaurant" : "\u0631\u0633\u062a\u0648\u0631\u0627\u0646",
+ 
+"shopping mall" : "\u0645\u0631\u06a9\u0632 \u062e\u0631\u06cc\u062f",
+"shrine" : "\u062d\u0631\u0645 \u06cc\u0627 \u0632\u06cc\u0627\u0631\u062a\u06af\u0627\u0647",
+"supermarket" : "\u0633\u0648\u067e\u0631 \u0645\u0627\u0631\u06a9\u062a",
+"temple" : "\u0645\u0639\u0628\u062f",
+"train station" : "\u0627\u06cc\u0633\u062a\u06af\u0627\u0647 \u0642\u0637\u0627\u0631"
+		
+			}
+		}
+		
+			,
+		{
+			"id" : 15,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0644\u0628\u0627\u0633 \u0647\u0627 \u002d \u0627\u0644\u0641",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+				
+			
+"belt":"\u06a9\u0645\u0631\u0628\u0646\u062f",
+"boots":"\u0686\u06a9\u0645\u0647",
+"hat":"\u06a9\u0644\u0627\u0647",
+"coat":"\u06a9\u062a",
+"dress":"\u0644\u0628\u0627\u0633",
+"gloves":"\u062f\u0633\u062a\u06a9\u0634",
+"jacket":"\u0698\u0627\u06a9\u062a",
+"jeans":"\u0634\u0644\u0648\u0627\u0631 \u062c\u06cc\u0646",
+"pajamas":"\u0644\u0628\u0627\u0633 \u062e\u0648\u0627\u0628",
+"pants":"\u0634\u0644\u0648\u0627\u0631",
+"raincoat":"\u0644\u0628\u0627\u0633 \u0628\u0627\u0631\u0627\u0646\u06cc",
+"scarf":"\u0631\u0648\u0633\u0631\u06cc"
+
+
+			
+			}
+		}
+		
+			,
+		{
+			"id" : 16,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0644\u0628\u0627\u0633 \u0647\u0627 \u002d \u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+				
+				
+			"shirt":"\u067e\u06cc\u0631\u0627\u0647\u0646",
+"shoes":"\u06a9\u0641\u0634",
+"skirt":"\u062f\u0627\u0645\u0646",
+"slippers":"\u062f\u0645\u067e\u0627\u06cc\u06cc",
+"socks":"\u062c\u0648\u0631\u0627\u0628",
+"suit":"\u06a9\u062a \u0648 \u0634\u0644\u0648\u0627\u0631",
+"sweater":"\u0698\u0627\u06a9\u062a",
+"sweatshirt":"\u0633\u0648\u06cc\u06cc \u0634\u0631\u062a",
+"t-shirt":"\u062a\u06cc \u0634\u0631\u062a",
+"tie":"\u06a9\u0631\u0627\u0648\u0627\u062a",
+"underclothes":"\u0644\u0628\u0627\u0633 \u0632\u06cc\u0631",
+"underpants":"\u0632\u06cc\u0631 \u0634\u0644\u0648\u0627\u0631\u06cc"
+			
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 17,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u06a9\u0644\u0627\u0633 \u062f\u0631\u0633\u06cc \u002d \u0627\u0644\u0641",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+				
+"blackboard":"\u062a\u062e\u062a\u0647 \u0633\u06cc\u0627\u0647",
+"blackboard eraser":"\u067e\u0627\u06a9 \u06a9\u0646 \u062a\u062e\u062a\u0647 \u0633\u06cc\u0627\u0647",
+"book":"\u06a9\u062a\u0627\u0628",
+"bookcase":"\u0642\u0641\u0633\u0647 \u06a9\u062a\u0627\u0628",
+"bulletin board":"\u062a\u0627\u0628\u0644\u0648 \u0627\u0639\u0644\u0627\u0646\u0627\u062a",
+"calendar":"\u0022\u062a\u0642\u0648\u06cc\u0645\u0022",
+"chair":"\u0635\u0646\u062f\u0644\u06cc",
+"chalk":"\u06af\u0686",
+"clock":"\u0633\u0627\u0639\u062a",
+"computer":"\u06a9\u0627\u0645\u067e\u06cc\u0648\u062a\u0631"
+
+				
+
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 18,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u06a9\u0644\u0627\u0633 \u062f\u0631\u0633\u06cc \u002d \u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+			
+
+"desk":"\u0645\u06cc\u0632 \u0645\u0637\u0627\u0644\u0639\u0647",
+"dictionary":"\u0641\u0631\u0647\u0646\u06af \u0644\u063a\u062a",
+"eraser":"\u067e\u0627\u06a9 \u06a9\u0646",
+"map":"\u0646\u0642\u0634\u0647",
+"notebook":"\u0646\u0648\u062a \u0628\u0648\u06a9",
+"pen":"\u062e\u0648\u062f\u06a9\u0627\u0631",
+"pencil":"\u0645\u062f\u0627\u062f",
+"pencil sharpener":"\u0645\u062f\u0627\u062f \u062a\u0631\u0627\u0634",
+"textbook":"\u06a9\u062a\u0627\u0628 \u062f\u0631\u0633\u06cc",
+"white board":"\u062a\u062e\u062a\u0647 \u0633\u0641\u06cc\u062f"
+
+			
+			
+			}
+		}
+		
+		
+	,
+		{
+			"id" : 19,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0645\u06cc\u0632 \u063a\u0630\u0627\u062e\u0648\u0631\u06cc",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+				
+				
+			
+"bowl":"\u06a9\u0627\u0633\u0647",
+"cup":"\u0641\u0646\u062c\u0627\u0646",
+"dish":"\u0638\u0631\u0641",
+"fork":"\u0686\u0646\u06af\u0627\u0644",
+"glass":"\u0644\u06cc\u0648\u0627\u0646",
+"knife":"\u0686\u0627\u0642\u0648",
+"napkin":"\u062f\u0633\u062a\u0645\u0627\u0644 \u0633\u0641\u0631\u0647",
+"pepper":"\u0641\u0644\u0641\u0644",
+"pitcher":"\u067e\u0627\u0631\u0686",
+"plate":"\u0628\u0634\u0642\u0627\u0628",
+"salt":"\u0646\u0645\u06a9",
+"spoon":"\u0642\u0627\u0634\u0642",
+"sugar":"\u0642\u0646\u062f"
+
+
+
+			
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 20,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062e\u0627\u0646\u0647 \u002d \u0627\u0644\u0641",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+"attic":"\u0627\u062a\u0627\u0642 \u0632\u06cc\u0631 \u0634\u06cc\u0631\u0648\u0627\u0646\u06cc",
+"basement":"\u0632\u06cc\u0631 \u0632\u0645\u06cc\u0646",
+"bath tub":"\u0648\u0627\u0646 \u062d\u0645\u0627\u0645",
+"bathroom":"\u062d\u0645\u0627\u0645",
+"bed":"\u062a\u062e\u062a \u062e\u0648\u0627\u0628",
+"bedroom":"\u0627\u062a\u0627\u0642 \u062e\u0648\u0627\u0628",
+"blanket":"\u067e\u062a\u0648",
+"bookcase":"\u0642\u0641\u0633\u0647 \u06a9\u062a\u0627\u0628",
+"carpet":"\u0641\u0631\u0634",
+"ceiling":"\u0633\u0642\u0641",
+"chair":"\u0635\u0646\u062f\u0644\u06cc",
+"closet":"\u06a9\u0645\u062f \u0644\u0628\u0627\u0633"
+		
+
+		
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 21,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062e\u0627\u0646\u0647 \u002d \u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+"sofa":"\u0645\u0628\u0644",
+"curtain":"\u067e\u0631\u062f\u0647",
+"desk":"\u0645\u06cc\u0632 \u06cc\u0627 \u0645\u06cc\u0632\u0645\u0637\u0627\u0644\u0639\u0647",
+"dining room":"\u0627\u062a\u0627\u0642 \u0646\u0627\u0647\u0627\u0631\u062e\u0648\u0631\u06cc",
+"door":"\u062f\u0631\u0628",
+"fan":"\u067e\u0646\u06a9\u0647",
+"floor":"\u06a9\u0641 \u002d \u0637\u0628\u0642\u0647",
+"furniture":"\u0645\u0628\u0644\u0645\u0627\u0646 \u002d \u0648\u0633\u0627\u06cc\u0644",
+"garage":"\u06af\u0627\u0631\u0627\u0698",
+"hall":"\u0633\u0627\u0644\u0646",
+"window":"\u067e\u0646\u062c\u0631\u0647",
+"key":"\u06a9\u0644\u06cc\u062f"
+
+		
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 22,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062e\u0627\u0646\u0647 \u002d \u062c",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+	
+"kitchen":"\u0622\u0634\u067e\u0632\u062e\u0627\u0646\u0647",
+"lamp":"\u0644\u0627\u0645\u067e",
+"toilet":"\u0633\u0631\u0648\u06cc\u0633 \u0628\u0647\u062f\u0627\u0634\u062a\u06cc",
+"lock":"\u0642\u0641\u0644",
+"mirror":"\u0622\u06cc\u0646\u0647",
+"stairs":"\u067e\u0644\u0647 \u0647\u0627",
+"wall":"\u062f\u06cc\u0648\u0627\u0631",
+"roof":"\u0633\u0642\u0641",
+"room":"\u0627\u062a\u0627\u0642",
+"rug":"\u0642\u0627\u0644\u06cc\u0686\u0647",
+"shelf":"\u062a\u0627\u0642\u0686\u0647",
+"table":"\u0645\u06cc\u0632"
+
+		
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 11,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062d\u0645\u0644 \u0648 \u0646\u0642\u0644",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"airplane":"\u0647\u0648\u0627\u067e\u06cc\u0645\u0627",
+"bicycle":"\u062f\u0648\u0686\u0631\u062e\u0647",
+"boat":"\u0642\u0627\u06cc\u0642",
+"bus":"\u0627\u062a\u0648\u0628\u0648\u0633",
+"car":"\u0645\u0627\u0634\u06cc\u0646",
+"helicopter":"\u0647\u0644\u06cc \u06a9\u0648\u067e\u062a\u0631",
+"horse":"\u0627\u0633\u0628",
+"jet":"\u062c\u062a",
+"motorcycle":"\u0645\u0648\u062a\u0648\u0631\u0633\u06cc\u06a9\u0644\u062a",
+"ship":"\u06a9\u0634\u062a\u06cc",
+"subway":"\u0645\u062a\u0631\u0648",
+"taxi":"\u062a\u0627\u06a9\u0633\u06cc",
+"train":"\u0642\u0637\u0627\u0631",
+"truck":"\u06a9\u0627\u0645\u06cc\u0648\u0646"
+ 
+ 
+
+		
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 24,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u062c\u063a\u0631\u0627\u0641\u06cc\u0627",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"beach":"\u0633\u0627\u062d\u0644 \u062f\u0631\u06cc\u0627",
+"desert":"\u0628\u06cc\u0627\u0628\u0627\u0646",
+"forest":"\u062c\u0646\u06af\u0644",
+"hill":"\u062a\u067e\u0647",
+"mountain":"\u06a9\u0648\u0647",
+"ocean":"\u0627\u0642\u06cc\u0627\u0646\u0648\u0633",
+"pond":"\u062a\u0627\u0644\u0627\u0628",
+"river":"\u0631\u0648\u062f\u062e\u0627\u0646\u0647",
+"lake":"\u062f\u0631\u06cc\u0627\u0686\u0647",
+"sea":"\u062f\u0631\u06cc\u0627",
+"stream":"\u062c\u0631\u06cc\u0627\u0646",
+"valley":"\u062f\u0631\u0647",
+"waterfall":"\u0627\u0628\u0634\u0627\u0631"
+
+
+
+
+		
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 25,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0635\u0641\u062a \u0647\u0627\u06cc \u0634\u062e\u0635\u06cc \u002d \u0627\u0644\u0641",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"angry":"\u062e\u0634\u0645\u06af\u06cc\u0646",
+"beautiful":"\u062e\u0648\u0634\u06af\u0644",
+"brave":"\u0634\u062c\u0627\u0639",
+"careful":"\u0628\u0627\u062f\u0642\u062a \u002d \u0645\u0648\u0627\u0638\u0628",
+"careless":"\u0628\u06cc \u062f\u0642\u062a",
+"clever":"\u0628\u0627\u0647\u0648\u0634",
+"crazy":"\u062f\u06cc\u0648\u0627\u0646\u0647",
+"cute":"\u0632\u06cc\u0628\u0627",
+"dangerous":"\u062e\u0637\u0631\u0646\u0627\u06a9",
+"exciting":"\u0647\u06cc\u062c\u0627\u0646 \u0627\u0646\u06af\u06cc\u0632",
+"famous":"\u0645\u0634\u0647\u0648\u0631",
+"friendly":"\u062f\u0648\u0633\u062a\u0627\u0646\u0647"
+
+
+
+
+		
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 26,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0635\u0641\u062a \u0647\u0627\u06cc \u0634\u062e\u0635\u06cc \u002d \u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"happy":"\u062e\u0648\u0634\u062d\u0627\u0644",
+"interesting":"\u062c\u0627\u0644\u0628",
+"lucky":"\u062e\u0648\u0634 \u0634\u0627\u0646\u0633",
+"old":"\u067e\u06cc\u0631",
+"poor":"\u0641\u0642\u06cc\u0631",
+"popular":"\u0645\u062d\u0628\u0648\u0628 \u002d \u0645\u0634\u0647\u0648\u0631",
+"rich":"\u062b\u0631\u0648\u062a\u0645\u0646\u062f",
+"sad":"\u063a\u0645\u06af\u06cc\u0646",
+"thin":"\u0644\u0627\u063a\u0631",
+"ugly":"\u0632\u0634\u062a",
+"unlucky":"\u0628\u062f \u0634\u0627\u0646\u0633",
+"young":"\u062c\u0648\u0627\u0646"
+
+ 
+
+		
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 27,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0642\u06cc\u062f \u0647\u0627\u06cc \u0632\u0645\u0627\u0646\u06cc",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"before":"\u0642\u0628\u0644 \u002d \u0633\u0627\u0628\u0642",
+"during":"\u062f\u0631 \u0637\u06cc \u002d \u062f\u0631 \u0645\u062f\u062a",
+"lately":"\u0627\u062e\u06cc\u0631\u0627",
+"never":"\u0647\u0631\u06af\u0632",
+"often":"\u063a\u0627\u0644\u0628\u0627",
+"rarely":"\u0628\u0646\u062f\u0631\u062a",
+"recently":"\u0628\u0647 \u062a\u0627\u0632\u06af\u06cc",
+"sometimes":"\u0628\u0639\u0636\u06cc \u0627\u0648\u0642\u0627\u062a",
+"soon":"\u0632\u0648\u062f",
+"today":"\u0627\u0645\u0631\u0648\u0632",
+"tomorrow":"\u0641\u0631\u062f\u0627",
+"usually":"\u0645\u0639\u0645\u0648\u0644\u0627",
+"yesterday":"\u062f\u06cc\u0631\u0648\u0632"
+
+
+
+
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 28,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0634\u063a\u0644 \u0647\u0627 \u002d \u0627\u0644\u0641",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"accountan":"\u062d\u0633\u0627\u0628 \u062f\u0627\u0631",
+"actor":"\u0628\u0627\u0632\u06cc\u06af\u0631",
+"athlete":"\u0648\u0631\u0632\u0634\u06a9\u0627\u0631",
+"author":"\u0646\u0648\u06cc\u0633\u0646\u062f\u0647",
+"baker":"\u0646\u0627\u0646\u0648\u0627",
+"banker":"\u0628\u0627\u0646\u06a9 \u062f\u0627\u0631",
+"barber":"\u0622\u0631\u0627\u06cc\u0634\u06af\u0631",
+"broker":"\u062f\u0644\u0627\u0644",
+"teacher":"\u0645\u0639\u0644\u0645",
+"veterinarian":"\u062f\u0627\u0645 \u067e\u0632\u0634\u06a9",
+"waiter":"\u067e\u06cc\u0634\u062e\u062f\u0645\u062a",
+"butcher":"\u0642\u0635\u0627\u0628"
+
+
+		
+		
+			}
+		}
+		
+		
+			,
+		{
+			"id" : 29,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0634\u063a\u0644 \u0647\u0627 \u002d\u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"carpenter":"\u0646\u062c\u0627\u0631",
+"chauffeur":"\u0634\u0648\u0641\u0631",
+"chef":"\u0622\u0634\u067e\u0632",
+"clerk":"\u06a9\u0627\u0631\u0645\u0646\u062f \u062f\u0641\u062a\u0631\u06cc",
+"coach":"\u0645\u0631\u0628\u06cc",
+"craftsman":"\u0647\u0646\u0631\u0645\u0646\u062f",
+"criminal":"\u062c\u0646\u0627\u06cc\u062a\u06a9\u0627\u0631",
+"crook":"\u06a9\u0644\u0627\u0647 \u0628\u0631\u062f\u0627\u0631",
+"dentist":"\u062f\u0646\u062f\u0627\u0646\u067e\u0632\u0634\u06a9",
+"doctor":"\u062f\u06a9\u062a\u0631",
+"editor":"\u0648\u06cc\u0631\u0627\u06cc\u0634\u06af\u0631",
+"engineer":"\u0645\u0647\u0646\u062f\u0633"
+
+ 
+		
+			}
+		}
+		
+			,
+		{
+			"id" : 30,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0634\u063a\u0644 \u0647\u0627 \u002d\u062c",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+ "farmer":"\u06a9\u0634\u0627\u0648\u0631\u0632",
+"fire fighter":"\u0622\u062a\u0634 \u0646\u0634\u0627\u0646",
+"fisherman":"\u0645\u0627\u0647\u06cc \u06af\u06cc\u0631",
+"judge":"\u0642\u0627\u0636\u06cc",
+"lawyer":"\u0648\u06a9\u06cc\u0644",
+"magician":"\u062c\u0627\u062f\u0648\u06af\u0631",
+"mechanic":"\u0645\u06a9\u0627\u0646\u06cc\u06a9",
+"musician":"\u0646\u0648\u0627\u0632\u0646\u062f\u0647",
+"nurse":"\u067e\u0631\u0633\u062a\u0627\u0631",
+"pharmacist":"\u062f\u0627\u0631\u0648\u0633\u0627\u0632",
+"pilot":"\u062e\u0644\u0628\u0627\u0646",
+"poet":"\u0634\u0627\u0639\u0631"
+
+		
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 31,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0634\u063a\u0644 \u0647\u0627 \u002d \u062f",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"policeman":"\u0645\u0627\u0645\u0648\u0631 \u067e\u0644\u06cc\u0633",
+"politician":"\u0633\u06cc\u0627\u0633\u062a\u0645\u062f\u0627\u0631",
+"printer":"\u0686\u0627\u067e\u06af\u0631",
+"professor":"\u0627\u0633\u062a\u0627\u062f",
+"priest":"\u06a9\u0634\u06cc\u0634",
+"sailor":"\u0645\u0644\u0648\u0627\u0646",
+"salesman":"\u0641\u0631\u0648\u0634\u0646\u062f\u0647",
+"shoemaker":"\u06a9\u0641\u0627\u0634",
+"soldier":"\u0633\u0631\u0628\u0627\u0632",
+"tailor":"\u062e\u06cc\u0627\u0637"
+
+
+ 
+ 
+
+
+
+
+
+
+		
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 32,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u063a\u0630\u0627 \u002d \u062c",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"beans":"\u0644\u0648\u0628\u06cc\u0627",
+"bread":"\u0646\u0627\u0646",
+"cereal":"\u062d\u0628\u0648\u0628\u0627\u062a",
+"fats":"\u0686\u0631\u0628\u06cc",
+"fish":"\u0645\u0627\u0647\u06cc",
+"fruit":"\u0645\u06cc\u0648\u0647",
+"meat":"\u06af\u0648\u0634\u062a",
+"nuts":"\u0622\u062c\u06cc\u0644",
+"oils":"\u0631\u0648\u063a\u0646",
+"pasta":"\u067e\u0627\u0633\u062a\u0627",
+"rice":"\u0628\u0631\u0646\u062c",
+"sweets":"\u0634\u06cc\u0631\u06cc\u0646\u06cc",
+"vegetables":"\u0633\u0628\u0632\u06cc\u062c\u0627\u062a"
+		
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 33,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0634\u06a9\u0644 \u0647\u0627\u0028\u0645\u0631\u0628\u0639\u060c \u002e\u002e\u002e\u0029",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+"circle":"\u062f\u0627\u06cc\u0631\u0647",
+"cone":"\u0645\u062e\u0631\u0648\u0637",
+"cylinder":"\u0627\u0633\u062a\u0648\u0627\u0646\u0647",
+"ellipse":"\u0628\u06cc\u0636\u06cc",
+"hexagon":"\u0634\u0634 \u0636\u0644\u0639\u06cc",
+"irregular shape":"\u0634\u06a9\u0644 \u0646\u0627\u0645\u0646\u0638\u0645",
+"octagon":"\u0647\u0634\u062a \u0636\u0644\u0639\u06cc",
+"oval":"\u0628\u06cc\u0636\u06cc \u0634\u06a9\u0644",
+"parallelogram":"\u0645\u062a\u0648\u0627\u0632\u06cc \u0627\u0644\u0627\u0636\u0644\u0627\u0639",
+
+"pyramid":"\u0647\u0631\u0645\u06cc",
+"rectangle":"\u0645\u0633\u062a\u0637\u06cc\u0644",
+
+"square":"\u0645\u0631\u0628\u0639",
+"star":"\u0633\u062a\u0627\u0631\u0647",
+"trapezoid":"\u0630\u0648\u0632\u0646\u0642\u0647",
+"triangle":"\u0645\u062b\u0644\u062b"
+
+
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 34,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0647\u062a\u0644 \u002d \u0627\u0644\u0641",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+
+"bellboy":"\u067e\u06cc\u0634\u062e\u062f\u0645\u062a",
+"double room":"\u0627\u062a\u0627\u0642 \u062f\u0648 \u062a\u062e\u062a\u0647",
+"extra bed":"\u062a\u062e\u062a \u0627\u0636\u0627\u0641\u06cc",
+"floor":"\u0637\u0628\u0642\u0647",
+"gift shop":"\u0645\u063a\u0627\u0632\u0647 \u06a9\u0627\u062f\u0648 \u0641\u0631\u0648\u0634\u06cc",
+"information desk":"\u0645\u06cc\u0632 \u0627\u0637\u0644\u0627\u0639\u0627\u062a",
+"inn":"\u0645\u0633\u0627\u0641\u0631\u062e\u0627\u0646\u0647",
+"money exchange":"\u0635\u0631\u0627\u0641\u06cc",
+"room service":"\u0633\u0631\u0648\u06cc\u0633 \u0627\u062a\u0627\u0642", 
+"service charge":"\u0627\u0646\u0639\u0627\u0645",
+"newsstand":"\u062f\u06a9\u0647 \u0631\u0648\u0632\u0646\u0627\u0645\u0647 \u0641\u0631\u0648\u0634\u06cc",
+"single room":"\u0627\u062a\u0627\u0642 \u06cc\u06a9 \u0646\u0641\u0631\u0647" 
+		
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 35,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0647\u062a\u0644 \u002d \u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"concierge ":"\u062f\u0631\u0628\u0627\u0646",
+"porter ":"\u0628\u0627\u0631\u0628\u0631",
+"baggage":"\u0686\u0645\u062f\u0627\u0646",
+"luggage ":"\u0628\u0627\u0631 \u0645\u0633\u0627\u0641\u0631",
+"doorman hotel":"\u062f\u0631\u0628\u0627\u0632\u06a9\u0646 \u0647\u062a\u0644",
+"elevator ":"\u0622\u0633\u0627\u0646\u0633\u0648\u0631",
+"lounge area":"\u0641\u0636\u0627\u06cc \u0627\u0633\u062a\u0631\u0627\u062d\u062a",
+"guest":"\u0645\u0647\u0645\u0627\u0646",
+"wake-up call":"\u062a\u0645\u0627\u0633 \u0628\u06cc\u062f\u0627\u0631\u0628\u0627\u0634",
+"airport shuttle":"\u0634\u0627\u062a\u0644 \u0641\u0631\u0648\u062f\u06af\u0627\u0647"
+
+	
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 36,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0622\u0628 \u0648 \u0647\u0648\u0627 \u002d \u0627\u0644\u0641",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+
+"air":"\u0647\u0648\u0627",
+"barometer":"\u0641\u0634\u0627\u0631 \u0633\u0646\u062c",
+"blizzard":"\u06a9\u0648\u0644\u0627\u06a9",
+"Celsius":"\u0633\u0627\u0646\u062a\u06cc\u06af\u0631\u0627\u062f\u0029\u0028\u062f\u0631\u062c\u0647 \u0633\u0644\u0633\u06cc\u0648\u0633",
+"cloud":"\u0627\u0628\u0631" ,
+"cold":"\u0633\u0631\u062f",
+"tornado":"\u06af\u0631\u062f\u0628\u0627\u062f\u0028\u062f\u0631\u062c\u0647\u0029",
+"degree":"\u0064\u0065\u0067\u0072\u0065\u0065",
+"drizzle":"\u0646\u0645 \u0646\u0645 \u0628\u0627\u0631\u0627\u0646",
+"dry":"\u062e\u0634\u06a9",
+"Fahrenheit":"\u062f\u0631\u062c\u0647 \u0641\u0627\u0631\u0646\u0647\u0627\u06cc\u062a",
+"flood":"\u0633\u06cc\u0644 \u0028\u0633\u06cc\u0644\u0627\u0628\u0029"
+	
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 37,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0622\u0628 \u0648 \u0647\u0648\u0627 \u002d \u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"fog":"\u0645\u0647",
+"forecast":"\u067e\u06cc\u0634 \u0628\u06cc\u0646\u06cc",
+"freeze":"\u06cc\u062e \u0632\u062f\u06af\u06cc",
+"frost":"\u0634\u0628\u0646\u0645",
+"hail":"\u062a\u06af\u0631\u06af",
+"heat":"\u06af\u0631\u0645\u0627\u0028\u062d\u0631\u0627\u0631\u062a\u0029",
+"hot":"\u062f\u0627\u063a",
+"humidity":"\u0631\u0637\u0648\u0628\u062a",
+"ice":"\u06cc\u062e",
+"lightning":"\u0631\u0639\u062f \u0648 \u0628\u0631\u0642",
+"meteorology":"\u0647\u0648\u0627\u0634\u0646\u0627\u0633\u06cc",
+"precipitation":"\u0628\u0627\u0631\u0634"
+	
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 38,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0622\u0628 \u0648 \u0647\u0648\u0627 \u002d \u062c",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+"rain":"\u0628\u0627\u0631\u0627\u0646",
+"rainstorm":"\u0628\u0627\u0631\u0627\u0646 \u0634\u062f\u06cc\u062f",
+"rainbow":"\u0631\u0646\u06af\u064a\u0646 \u0643\u0645\u0627\u0646",
+"rainy":"\u0628\u0627\u0631\u0627\u0646\u06cc",
+"rainy season":"\u0641\u0635\u0644 \u0628\u0627\u0631\u0627\u0646\u06cc",
+"sky":"\u0622\u0633\u0645\u0627\u0646",
+"sleet":"\u0628\u0631\u0641 \u0648 \u0628\u0627\u0631\u0627\u0646",
+"snow":"\u0628\u0631\u0641",
+"snowstorm":"\u0637\u0648\u0641\u0627\u0646 \u0628\u0631\u0641",
+"snowy":"\u0628\u0631\u0641\u06cc",
+"storm":"\u0637\u0648\u0641\u0627\u0646",
+"sun":"\u0622\u0641\u062a\u0627\u0628",
+"sunny":"\u0622\u0641\u062a\u0627\u0628\u06cc",
+"temperature":"\u062f\u0631\u062c\u0647 \u0648 \u062f\u0645\u0627"
+		
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 39,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0622\u0628 \u0648 \u0647\u0648\u0627 \u002d \u062f",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"thermometer":"\u062f\u0645\u0627\u0633\u0646\u062c",
+"thunder":"\u0631\u0639\u062f",
+"thunderstorm":"\u062a\u0648\u0641\u0627\u0646 \u0631\u0639\u062f \u0648 \u0628\u0631\u0642",
+"tornado":"\u06af\u0631\u062f\u0628\u0627\u062f",
+"tsunami":"\u0633\u0648\u0646\u0627\u0645\u06cc",
+"typhoon":"\u06af\u0631\u062f\u0628\u0627\u062f",
+"warm":"\u06af\u0631\u0645",
+"weather":"\u0622\u0628 \u0648 \u0647\u0648\u0627\u06cc",
+"wind":"\u0628\u0627\u062f",
+"windy":"\u067e\u0631 \u0628\u0627\u062f \u0028\u0637\u0648\u0641\u0627\u0646\u06cc\u0029"
+
+	
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 40,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0631\u0648\u0632\u0647\u0627\u06cc \u0647\u0641\u062a\u0647",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"Sunday":"\u06cc\u06a9\u0634\u0646\u0628\u0647",
+"Monday":"\u062f\u0648\u0634\u0646\u0628\u0647",
+"Tuesday":"\u0633\u0647 \u0634\u0646\u0628\u0647",
+"Wednesday":"\u0686\u0647\u0627\u0631\u0634\u0646\u0628\u0647",
+"Thursday":"\u067e\u0646\u062c\u0634\u0646\u0628\u0647",
+"Friday":"\u062c\u0645\u0639\u0647",
+"Saturday":"\u0634\u0646\u0628\u0647"
+
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 41,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0648\u0631\u0632\u0634 \u002d \u0627\u0644\u0641",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"swimming":"\u0634\u0646\u0627 \u0643\u0631\u062f\u0646",
+"baseball":"\u0628\u06cc\u0633\u0628\u0627\u0644",
+"basketball":"\u0628\u0633\u06a9\u062a\u0628\u0627\u0644",
+"bowling":"\u0628\u0627\u0632\u06cc \u0628\u0648\u0644\u06cc\u0646\u06af",
+"car racing":"\u0645\u0633\u0627\u0628\u0642\u0627\u062a \u0627\u062a\u0648\u0645\u0628\u06cc\u0644 \u0631\u0627\u0646\u06cc",
+"cycling":"\u062f\u0648\u0686\u0631\u062e\u0647 \u0633\u0648\u0627\u0631\u064a",
+"squash":"\u0627\u0633\u06a9\u0648\u0627\u0634",
+"table tennis":"\u0645\u06cc\u0632 \u062a\u0646\u06cc\u0633",
+"track and field":"\u062f\u0648 \u0648 \u0645\u06cc\u062f\u0627\u0646\u06cc",
+"volleyball":"\u0648\u0627\u0644\u06cc\u0628\u0627\u0644"
+	
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 42,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0648\u0631\u0632\u0634 \u002d \u0628",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"horse racing":"\u0645\u0633\u0627\u0628\u0642\u0647 \u0627\u0633\u0628 \u062f\u0648\u0627\u0646\u06cc",
+"jogging":"\u0622\u0647\u0633\u062a\u0647 \u062f\u0648\u06cc\u062f\u0646",
+"motorcycle racing":"\u0645\u0633\u0627\u0628\u0642\u0627\u062a \u0645\u0648\u062a\u0648\u0631 \u0633\u06cc\u06a9\u0644\u062a \u0631\u0627\u0646\u06cc",
+"para gliding":"\u067e\u0627\u0631\u0627\u06af\u0644\u0627\u06cc\u062f\u0631",
+"polo":"\u0686\u0648\u06af\u0627\u0646 \u0628\u0627\u0632\u06cc",
+"rugby":"\u0631\u0627\u06af\u0628\u06cc",
+"scuba diving":"\u063a\u0648\u0627\u0635\u06cc",
+"skiing":"\u0627\u0633\u06a9\u06cc \u0628\u0627\u0632\u06cc",
+"footbal/soccer":"\u0641\u0648\u062a\u0628\u0627\u0644",
+"snow-boarding":"\u0627\u0633\u0646\u0648\u0628\u0631\u062f \u0633\u0648\u0627\u0631\u06cc",
+"golf":"\u06af\u0644\u0641" 
+		
+		
+			}
+		}
+		
+		
+		
+			,
+		{
+			"id" : 43,
+			"version" : 2,
+			"action" : "new",
+			"title" : "\u0633\u0648\u0621 \u0639\u0645\u0644",
+			"description" : "Match between a number to its Icelandic word",
+			"pairs" : {
+		
+
+"blackmail":"\u0628\u0627\u062c \u062e\u0648\u0627\u0647\u06cc",
+"bribery":"\u0631\u0634\u0648\u0647 \u062e\u0648\u0627\u0631\u06cc",
+"conspiracy":"\u062a\u0648\u0637\u0626\u0647",
+"espionage":"\u062c\u0627\u0633\u0648\u0633\u06cc",
+"fraud":"\u062a\u0642\u0644\u0628",
+"rape":"\u062a\u062c\u0627\u0648\u0632",
+"riot":"\u0634\u0648\u0631\u0634",
+"robbery":"\u0633\u0631\u0642\u062a",
+"slander":"\u062a\u0647\u0645\u062a \u0632\u062f\u0646",
+"treason":"\u062e\u06cc\u0627\u0646\u062a",
+"thief":"\u062f\u0632\u062f"
+
+		
+		
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	]
+	
+}
